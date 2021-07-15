@@ -6,7 +6,6 @@ response = requests.get(url)
 
 html_icerigi = response.content
 soup = BeautifulSoup(html_icerigi, "html.parser")
-#print(soup)
 
 """
 for i in soup.find_all("a"): #sitenin html sindeki tüm a etiketlerini gösterir
